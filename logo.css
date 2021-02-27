@@ -1,0 +1,127 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo-container.black { 
+    /* border: 1px solid white; */
+    background-color: black;
+    /* z-index: -1; */
+   
+}
+
+.logo-container.white{
+    /* background-color: rgb(155, 56, 56); */
+    border: 1px solid black;
+    /* z-index: -1; */
+   
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    /* width: 1000px; */
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.enzee {
+    /* border: 1px solid white; */
+    display: inline-block;
+    font-size: 6rem;
+    width: 16rem;
+    margin-right: 1rem;
+    background: linear-gradient(to right, #c33764, #1d2671);    
+    /* background: linear-gradient(to right, #1D2671, #C33764);  */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.photography {
+    /* border: 1px solid white; */
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 4.5rem 0px 0px;
+    letter-spacing: 30px;
+    padding-left: 20px;
+    font-size: .9rem;
+    color: rgb(174, 174, 180);
+    /* background: linear-gradient(to left, #c33764, #1d2671); 
+    -webkit-background-clip: text;
+    color: transparent; */
+}
+
+.white__photography {
+    color: rgb(47, 70, 112);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* li {
+    background-color: rgb(122, 83, 76);
+} */
+
+a {
+    text-decoration: none;
+    color: rgb(182, 37, 37);
+    color: rgb(214, 214, 214);
+}
+
+
+
+/* DESIGN 1 */
+
+.logo-container--1 {
+    width: 252px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 18rem;
+    /* width: 260px; */
+    /* height: 78px; */
+    /* border: 2px solid rgb(182, 35, 35); */
+}
+
+.enzee--1 {
+    /* border: 1px solid red; */
+    /* height: 250px; */
+    /* text-align: center; */
+    /* width: 252px; */
+   padding-left: 10px;
+    margin: 0px;
+    background-color: black;
+    color: silver;
+    font-size: 3.5rem;
+    /* font-weight: 300; */
+    letter-spacing: .8rem;
+}
+
+.nz--1 {
+    color: steelblue;
+    font-size: 3.75rem;
+}
+
+.photography--1 {
+    width: 252px;
+    /* border: 1px solid cyan; */
+    background-color: silver;
+    /* border-top: 1px solid steelblue; */
+    border-bottom: 1px solid black;
+
+    /* text-align: center; */
+    font-size: 15px;
+    /* font-weight: 600; */
+    letter-spacing: 13px;
+    padding-left: 5px;
+    margin-top: .15rem;
+}
+
